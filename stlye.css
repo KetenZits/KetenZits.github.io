@@ -12,15 +12,18 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(153, 201, 255);
+    margin: 15px;
+    background: linear-gradient(11deg, rgba(36,70,161,1) 0%, rgba(165,197,252,1) 100%);
 }
 .navbar{
+    border-radius: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
     /* border: 1px solid red; */
     height: 75px;
     background-color: rgb(83, 154, 255);
+    filter: drop-shadow(0 0 5px #076ec3);
 }
 .logo{
     display: flex;
@@ -28,6 +31,9 @@ body{
     align-items: center;
     color: rgb(255, 255, 255);
     font-size: 35px;
+    background: -webkit-linear-gradient(101deg,#09ebef, #88ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     /* filter: drop-shadow(0 0 5px aqua); */
     /* border: 1px solid red; */
 }
@@ -44,6 +50,9 @@ body{
     height: 50px;
     color: rgb(0, 0, 0);
     font-size: 25px;
+    background: -webkit-linear-gradient(75deg,#185dff, #010733);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .all-main{
     display: flex;
@@ -72,6 +81,9 @@ body{
     height: 50px;
     color: rgb(0, 0, 0);
     font-size: 25px;
+    background: -webkit-linear-gradient(75deg,#840089, #ff9ef9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .cu-main{
     display: flex;
@@ -100,6 +112,9 @@ body{
     height: 50px;
     color: rgb(0, 0, 0);
     font-size: 25px;
+    background: -webkit-linear-gradient(75deg,#3835ff, #1b1ec4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .mu-main{
     display: flex;
@@ -128,6 +143,9 @@ body{
     height: 50px;
     color: rgb(0, 0, 0);
     font-size: 25px;
+    background: -webkit-linear-gradient(75deg,#cf5102, #f07021);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .kmu-main{
     display: flex;
@@ -159,6 +177,9 @@ body{
     height: 50px;
     color: rgb(0, 0, 0);
     font-size: 25px;
+    background: -webkit-linear-gradient(75deg,#01650b, #47f971);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .ku-main{
     display: flex;
@@ -188,6 +209,9 @@ body{
     height: 50px;
     color: rgb(0, 0, 0);
     font-size: 25px;
+    background: -webkit-linear-gradient(75deg,#00766A, #55af6a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .su-main{
     display: flex;
@@ -238,9 +262,9 @@ body{
         height: 1000px;
     }
 }
-@media (max-width: 423px){
+@media (max-width: 430px){
     #head{
-        font-size: 17px;
+        font-size: 15px;
     }
 }
 @media (max-width: 320px){
